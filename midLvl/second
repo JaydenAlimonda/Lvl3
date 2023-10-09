@@ -1,0 +1,17 @@
+const input1 = 'HellO, World!';
+
+console.log(countVowels(input1)); // Output: 3
+
+const input2 = 'COuntIng Vowels';
+
+console.log(countVowels(input2)); // Output: 5
+
+function countVowels(word) {
+let count = 0
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+const onlyVowels = word.split("").filter(char => vowels.includes(char.toLowerCase()))
+for (let i = 0; i < onlyVowels.length ; i++){
+count++ 
+}
+return count
+}

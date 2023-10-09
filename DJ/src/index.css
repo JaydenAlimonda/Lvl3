@@ -1,0 +1,17 @@
+body {margin: 0;}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .square {
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    margin-right: 4px;
+    border-radius: 5px;
+    background-color: white; /* Default color for squares */
+  }

@@ -1,0 +1,7 @@
+body {margin: 0;}
+
+.box{
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px;
+}

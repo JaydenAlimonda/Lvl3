@@ -10,7 +10,7 @@ export default function Friends(props) {
         />
     ))
     return (
-        <section>
+        <section className="Friend--Box">
           <p>Name: {props.name}</p>
           <p>Age: {props.age}</p>
           <div>

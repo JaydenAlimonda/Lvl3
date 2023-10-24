@@ -1,11 +1,13 @@
 import React from 'react'
+import Main from './components/Main'
 
 function App() {
   return (
-  <footer className='Footer'>
-    
-  </footer>
-    )
+    <>
+    <Main />
+ 
+   </> 
+   )
 }
 
 export default App

@@ -3,3 +3,10 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.Friend--Box {
+  border: 2px solid black; 
+  padding: 10px; 
+  margin: 10px; 
+  max-width: 300px;
+}
